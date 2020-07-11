@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: Middle ;
+  font-family: 'Monoton', cursive;
+  color: forestgreen;
+  font-weight : 10;
+  margin: 40px 10px 60px;
+  border-bottom : 3px solid red;
+}
+h4 {
+  text-align: center;
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+
+.gallery img {
+  width: 300px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 600ms;
+}
+
+.gallery img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
